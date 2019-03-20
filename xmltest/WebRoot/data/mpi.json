@@ -1,0 +1,102 @@
+[
+	{
+		"argvs": [{
+				"desc": "来自main()",
+				"name": "*argc"
+			},
+			{
+				"desc": "来自main()",
+				"name": "*argv"
+			}
+		],
+		"code": "MPI_Init(&argc , &argv)",
+		"detail": "int MPI_Init(int *argc , char **argv[])",
+		"function": "初始化MPI环境",
+		"id": 1,
+		"mpitype": {
+			"detail": "",
+			"id": 1,
+			"name": "初等例程"
+		}
+	},
+	{
+		"argvs": [{
+				"desc": "来自main()",
+				"name": "*argc"
+			},
+			{
+				"desc": "来自main()",
+				"name": "*argv"
+			}
+		],
+		"code": "MPI_Finalize()",
+		"detail": "int MPI_Finalize(void)",
+		"function": "终止MPI执行环境",
+		"id": 1,
+		"mpitype": {
+			"detail": "",
+			"id": 1,
+			"name": "初等例程"
+		}
+	},
+	{
+		"argvs": [{
+				"desc": "来自main()",
+				"name": "*argc"
+			},
+			{
+				"desc": "来自main()",
+				"name": "*argv"
+			}
+		],
+		"code": "MPI_Comm_rank(MPI_COMM_WORLD ,&rank)",
+		"detail": "int MPI_Comm_rank(MPI_Comm comm , int *rank)",
+		"function": "取进程号",
+		"id": 1,
+		"mpitype": {
+			"detail": "",
+			"id": 1,
+			"name": "初等例程"
+		}
+	},
+	{
+		"argvs": [{
+				"desc": "来自main()",
+				"name": "*argc"
+			},
+			{
+				"desc": "来自main()",
+				"name": "*argv"
+			}
+		],
+		"code": "MPI_Comm_size(MPI_COMM_WORLD , &size)",
+		"detail": "int MPI_Comm_size(MPI_Comm comm , int *size)",
+		"function": "取通信组大小",
+		"id": 1,
+		"mpitype": {
+			"detail": "",
+			"id": 1,
+			"name": "初等例程"
+		}
+	},
+	{
+		"argvs": [{
+				"desc": "来自main()",
+				"name": "*argc"
+			},
+			{
+				"desc": "来自main()",
+				"name": "*argv"
+			}
+		],
+		"code": "MPI_Wtime()",
+		"detail": "double MPI_Wtime(void)",
+		"function": "当前执行时间",
+		"id": 1,
+		"mpitype": {
+			"detail": "",
+			"id": 1,
+			"name": "初等例程"
+		}
+	}
+]

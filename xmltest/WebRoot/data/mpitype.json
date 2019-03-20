@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"detail": "MPI初始化、终止等基础例程",
+		"name": "初等例程"
+	},
+	{
+		"id": 2,
+		"detail": "消息传递例程。MPI为MPI_Datatype定义了各种数据类型，大部分与C的数据类型相对应。如：MPI_CHAR对应signed char",
+		"name": "点对点消息传递例程"
+	},
+	{
+		"id": 3,
+		"detail": "进程组操作例程",
+		"name": "组例程"
+	}
+]
